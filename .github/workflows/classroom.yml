@@ -20,8 +20,8 @@ jobs:
         pip install numpy pandas pytest
     
     - name: Run Tests
-      run: pytest tests.py
+      run: pytest test_assignment.py
     
     - name: Generate Report
       run: |
-        pytest tests.py --json-report
+        pytest test_assignment.py --json-report
