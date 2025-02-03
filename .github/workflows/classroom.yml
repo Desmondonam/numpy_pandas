@@ -22,6 +22,4 @@ jobs:
     - name: Run Tests
       run: pytest test_assignment.py
     
-    - name: Generate Report
-      run: |
-        pytest test_assignment.py --json-report
+    
